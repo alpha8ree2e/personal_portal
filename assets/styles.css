@@ -385,7 +385,8 @@ h2 {
 }
 
 .contact-list span {
-  color: var(--white);
+  color: var(--text);
+  font-size: clamp(18px, 2vw, 26px);
 }
 
 .contact-list a {
