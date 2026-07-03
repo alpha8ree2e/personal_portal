@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Breeze's Toolbox</title>
+    <meta
+      name="description"
+      content="Breeze's Toolbox is a raw project index for tools, experiments, dashboards, and useful utilities."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%94%A7%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="Site header">
+      <a class="brand" href="#top" aria-label="Breeze's Toolbox home">
+        <span class="brand-name">BREEZE</span>
+        <span class="brand-tag">TOOLBOX</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#toolbox">INDEX</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="pageTitle">
+        <p class="kicker">PRIVATE PROJECT TOOLS / LIVE INDEX</p>
+        <h1 id="pageTitle">BREEZE'S TOOLBOX</h1>
+        <p class="intro">
+          A black-box inventory of tools, dashboards, prototypes, odd utilities, and other useful trouble.
+          Every title is a launch link. Final names and URLs are ready to be swapped in.
+        </p>
+        <a class="shop-button" href="#toolbox">OPEN THE BOX</a>
+      </section>
+
+      <section class="control-strip" aria-label="Toolbox controls">
+        <label class="search-label" for="toolboxSearch">SEARCH</label>
+        <input
+          id="toolboxSearch"
+          type="search"
+          autocomplete="off"
+          placeholder="TYPE TO FILTER THE INVENTORY"
+        />
+        <span class="counter" id="counter">00/00</span>
+      </section>
+
+      <section class="toolbox" id="toolbox" aria-labelledby="toolboxTitle">
+        <div class="section-line">
+          <h2 id="toolboxTitle">TOOL INDEX</h2>
+          <span>CLICK TITLES / FLIP NUMBERS</span>
+        </div>
+        <ol class="tool-list" id="toolList"></ol>
+        <p class="empty-state" id="emptyState" hidden>NO MATCHES IN THE BOX.</p>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contactTitle">
+        <div class="section-line">
+          <h2 id="contactTitle">CONTACT</h2>
+          <span>DIRECT CHANNELS</span>
+        </div>
+        <div class="contact-list">
+          <span>WECHAT: CZWTIE</span>
+          <a
+            href="https://applink.feishu.cn/client/message/link/open?token=AmleV4bAQMziakfsCYaADhs%3D"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LARK
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span id="clock">--:--:--</span>
+      <span>BREEZE SYSTEMS</span>
+      <span>STATUS: OPEN</span>
+    </footer>
+
+    <script src="./assets/app.js"></script>
+  </body>
+</html>
